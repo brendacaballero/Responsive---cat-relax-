@@ -1,0 +1,24 @@
+@media (max-width:500px) {
+    section.inicio div {
+        width: 80%;
+    }
+
+    section.inicio div.imagen_inicial {
+        width: 90%;
+    }
+
+
+    section.inicio div.imagen_inicial img {
+        width: 90%;
+    }
+
+    footer div.container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        align-content: stretch;
+        padding-left: 40px;
+    }
+}

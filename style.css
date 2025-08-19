@@ -1,0 +1,271 @@
+html,
+body {
+    background-color: #EEF5FF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+header img {
+    width: 150px;
+}
+
+header h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #176B87;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #86B6F6;
+    height: 60px;
+
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 10px;
+    border: #B4D4FF solid;
+    background-color: #B4D4FF;
+    border-radius: 40px;
+    padding: 6px;
+    padding: 6px;
+    width: 100px;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #114050;
+}
+
+section.inicio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin: 20px;
+
+}
+
+section.inicio div {
+    width: 50%;
+}
+
+section.inicio div.imagen_inicial {
+    width: auto;
+}
+
+section.inicio h2 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #176B87;
+    font-size: 50px;
+}
+
+section.inicio p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+section.inicio div.imagen_inicial img {
+    width: 400px;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgb(151, 151, 151);
+
+}
+
+section#habitaciones {
+    width: 100%;
+    padding: 46px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    background-color: #86B6F6;
+}
+
+
+section#habitaciones div.card img {
+    width: 300px;
+    height: 600px;
+    border-radius: 40px;
+
+}
+
+section#habitaciones div.card {
+    width: 400px;
+    height: 740px;
+    margin: 14px;
+    border: #B4D4FF solid;
+    background-color: #B4D4FF;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+section#habitaciones div.card h3 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #176B87;
+    text-align: center;
+}
+
+section#habitaciones div.card p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+section.servicios {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+section.servicios h2 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #176B87;
+    font-size: 30px;
+}
+
+section.servicios ul {
+    padding-left: 100px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #114050;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #B4D4FF;
+}
+
+footer div.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+}
+
+footer div.contacto h2 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #176B87;
+    font-size: 20px;
+}
+
+footer div.contacto p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #114050;
+    font-size: 14px;
+}
+
+footer div.direccion h2 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #176B87;
+    font-size: 20px;
+}
+
+footer div.direccion p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #114050;
+    font-size: 14px;
+}
+
+footer div.direccion a {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #114050;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+footer div.redes h2 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #176B87;
+    font-size: 20px;
+}
+
+footer div.redes img {
+    width: 50px;
+}
+
+footer div.derechos p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #114050;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+}
+
